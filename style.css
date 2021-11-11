@@ -1,0 +1,185 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section{
+  height: 766.182px;
+  width: 100%;
+  background-color: #000;
+}
+.page1{
+  height: 766.182px;
+  width: 100%;
+  display: flex;
+  opacity: 1;
+  transition: 1s;
+  position: fixed;
+}
+section .st-btn{
+  height: 45px;
+  width: 118px;
+  position: relative;
+  align-self: center;
+  left: 138px;
+  background: #005EFF;
+  border-radius: 4px;
+  border: 1px solid #005EFF;
+  color: #fff;
+  letter-spacing: 2.7px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.text{
+  height: 766.182px;
+  width: 100%;
+  background: #000;
+  display: inline-block;
+  position: relative;
+  top: -766px;
+  transition: 1s;
+}
+
+
+/**/
+.heart{
+  font-size: 50px;
+  position: relative;
+  left: 30px;
+  top: 80px;
+  animation: hrt 4.5s infinite;
+  animation-direction: alternate;
+  animation-delay: 1s;
+}
+@keyframes hrt{
+  from{
+    top: 80px;
+    left: 30px;
+  }
+  to{
+    top: 280px;
+    left: 165px;
+  }
+}
+/**/
+
+/**/
+.heart2{
+  font-size: 50px;
+  position: relative;
+  float: right;
+  right: 30px;
+  top: 80px;
+  animation: hrt2 4.5s infinite;
+  animation-direction: alternate;
+  animation-delay: 1s;
+}
+
+@keyframes hrt2 {
+  from{
+    right: 30px;
+    top: 80px;
+  }
+  to{
+    right: 165px;
+    top: 280px;
+  }
+}
+
+/**/
+
+
+.heart3{
+  font-size: 50px;
+  position: relative;
+  float: left;
+  left: 30px;
+  bottom: -245px;
+  animation: hrt3 4.5s infinite;
+  animation-direction: alternate;
+  animation-delay: 1s;
+}
+
+@keyframes hrt3{
+  from{
+    left: 30px;
+    bottom: -245px;
+  }
+  to{
+    left: 165px;
+    bottom: -46px;
+  }
+}
+/**/
+
+
+.heart4{
+  font-size: 50px;
+  position: relative;
+  float: right;
+  right: 30px;
+  bottom: -245px;
+  animation: hrt4 4.5s infinite;
+  animation-direction: alternate;
+  animation-delay: 1s;
+}
+@keyframes hrt4{
+  from{
+    right: 30px;
+    bottom: -245px;
+  }
+  to{
+    right: 165px;
+    bottom: -46px;
+  }
+}
+
+/**/
+
+.text h2{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 140px;
+  color: #FF0064;
+  letter-spacing: 2px;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.text .st-lin{
+  text-align: center;
+  margin-top: 30px;
+  letter-spacing: 2px;
+  line-height: 40px;
+  color: #fff;
+  font-weight: 400;
+  position: fixed;
+  z-index: 1;
+  
+  animation: ocp 2s;
+}
+
+@keyframes ocp{
+  from{
+    
+  }
+  to{
+    
+  }
+}
+
+
+.text .nd-lin{
+  text-align: center;
+  margin-top: 30px;
+  letter-spacing: 2px;
+  line-height: 40px;
+  color: #0345EE;
+  font-weight: 400;
+  position: fixed;
+  z-index: 1;
+  position: relative; 
+}
